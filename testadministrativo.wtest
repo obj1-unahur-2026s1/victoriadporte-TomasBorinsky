@@ -1,0 +1,17 @@
+import administrativo.*
+import victoria.*
+describe "probamos que los elementos nos digan su valor" {
+  test "si victoria tiene 32 años la raqueta vale 3000" {
+    victoria.cumplirAños()
+    victoria.cumplirAños()
+    victoria.cumplirAños()
+    victoria.cumplirAños()
+    victoria.cumplirAños()
+    victoria.cumplirAños()
+    victoria.cumplirAños()
+    victoria.cumplirAños()
+    victoria.cumplirAños()
+    victoria.cumplirAños()
+    assert.equals(3000, raqueta.valor(victoria))
+  }
+}
